@@ -1,0 +1,542 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="MAIN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613777963.09" ts_lastsave="1613961219.07" unique_id="1">
+		<rich_text>• Vulernability Searching
+• Useful Commands/Linux Tools
+• Linux file system
+• OSI model</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Vulnerability Searching" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613777983.61" ts_lastsave="1613779151.37" unique_id="2">
+			<rich_text>
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h3" weight="heavy">ExploitDB</rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text link="webs https://www.exploit-db.com/">https://www.exploit-db.com/</rich_text>
+			<rich_text>
+• can download vuln. for use
+• searchsploit command line tool for ExploitDB
+
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h3" weight="heavy">National Vulnerability Database</rich_text>
+			<rich_text scale="h3"> </rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text link="webs https://nvd.nist.gov/">https://nvd.nist.gov/</rich_text>
+			<rich_text> 
+• good for searching of Common Vulnerabilities and Exposure
+
+</rich_text>
+			<rich_text background="#ffff00000000" weight="heavy">Others</rich_text>
+			<rich_text>
+• CVE Mitre - </rich_text>
+			<rich_text link="webs https://cve.mitre.org/">https://cve.mitre.org/</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Useful Commands (Linux)" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613779763.95" ts_lastsave="1614023196.38" unique_id="3">
+			<rich_text>• </rich_text>
+			<rich_text background="#00000000ffff">man</rich_text>
+			<rich_text> - manual for whatever tool in Linux ex: 
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">grep</rich_text>
+			<rich_text> - pipe output (text) with this tool, output of man is filtered for version ex: 
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">scp</rich_text>
+			<rich_text> - secure copy protocol, tool down/uploading files while ssh ex: 
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">ssh</rich_text>
+			<rich_text> - remote login ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">su</rich_text>
+			<rich_text> - switch user (leave blank for root) ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">&amp;&amp;</rich_text>
+			<rich_text> - pipe commands, second executes if first succeeds, </rich_text>
+			<rich_text background="#00000000ffff">;</rich_text>
+			<rich_text> does excutes second parameter regardless ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">&amp;</rich_text>
+			<rich_text> - command on left runs in background ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">&gt;&gt;</rich_text>
+			<rich_text> - appends output to file, </rich_text>
+			<rich_text background="#00000000ffff">&gt;</rich_text>
+			<rich_text> inserts and if file already exists then it overwrites ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">export</rich_text>
+			<rich_text> declare or change environment variables ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">rm</rich_text>
+			<rich_text> - remove file or directory ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">mv</rich_text>
+			<rich_text> - moves file to destination, also used to rename ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">cp</rich_text>
+			<rich_text> - copy file from source to destination ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">mkdir</rich_text>
+			<rich_text> - make directory ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">ln</rich_text>
+			<rich_text> - creates hard link, duplicates file, changes made to copy reflect the original ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">ln -s </rich_text>
+			<rich_text>- creates symbolic link, only creates a reference to the original ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">find</rich_text>
+			<rich_text> - list files (user has access to) within given directory ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">sudo</rich_text>
+			<rich_text> - run command as root  (must have current user's password and must have permission ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">apt</rich_text>
+			<rich_text> - Advanced Package Tool, use tool to install/manage packages
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h1">Users</rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">adduser</rich_text>
+			<rich_text> - create user (must run as root) ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">addgroup</rich_text>
+			<rich_text> -create group (must run as root) ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">usermod</rich_text>
+			<rich_text> - add user to group(s) (usermod -a -G [groups seperated by commas] &lt;user&gt;) ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h1">Processes</rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">ps</rich_text>
+			<rich_text> - show list of running processes ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">kill</rich_text>
+			<rich_text> - terminate process with asscociated pid</rich_text>
+			<rich_text background="#000000000000"> </rich_text>
+			<rich_text>
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h1">Misc.</rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">#!/bin/bash</rich_text>
+			<rich_text> - shebang file with this header is a bash script, must have .sh extension to be a bash script if no shebang ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• </rich_text>
+			<rich_text background="#00000000ffff">Relative paths</rich_text>
+			<rich_text>: 
+   ◇ . (current dir) 
+   ◇ .. (previous dir)
+   ◇ ~(home dir)
+• </rich_text>
+			<rich_text background="#00000000ffff">$ </rich_text>
+			<rich_text>denotes environment variables (variables used by processes) ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text background="#ffff00000000" scale="h1">PERMISSIONS</rich_text>
+			<rich_text justification="left" scale="h1"></rich_text>
+			<rich_text scale="h1"> (see </rich_text>
+			<rich_text link="node 4" scale="h1">Linux Files</rich_text>
+			<rich_text scale="h1"> tab)</rich_text>
+			<rich_text> 
+• </rich_text>
+			<rich_text background="#00000000ffff">chown</rich_text>
+			<rich_text> - change ownership, use to modify owner and group of file or dir ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+•  </rich_text>
+			<rich_text background="#00000000ffff">chmod</rich_text>
+			<rich_text> - change owner, group and everyone else permissions ex:
+   ◇ </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+</rich_text>
+			<codebox char_offset="52" frame_height="20" frame_width="300" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">man ssh</codebox>
+			<codebox char_offset="146" frame_height="20" frame_width="300" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">man ssh | grep ‘version’</codebox>
+			<codebox char_offset="224" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">scp -r user@example.com:/path/to/source /path/to/dest</codebox>
+			<codebox char_offset="256" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">ssh username@hostname_or_ip</codebox>
+			<codebox char_offset="309" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">su #[optional user]</codebox>
+			<codebox char_offset="420" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">ls &amp;&amp; echo hello</codebox>
+			<codebox char_offset="472" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">sleep 5 &amp; ls</codebox>
+			<codebox char_offset="570" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">echo hello &gt;&gt; text.txt</codebox>
+			<codebox char_offset="630" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">export path=/home/Desktop</codebox>
+			<codebox char_offset="673" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">rm -r /directory #deletes directory and all files within</codebox>
+			<codebox char_offset="738" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">mv file /home/Desktop</codebox>
+			<codebox char_offset="793" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">cp file /home/Desktop</codebox>
+			<codebox char_offset="829" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">mkdir myDir</codebox>
+			<codebox char_offset="925" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">ln file newfile</codebox>
+			<codebox char_offset="1010" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">ln -s file newfile</codebox>
+			<codebox char_offset="1085" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">find /tmp/ -user root #list all files within /tmp owned by root</codebox>
+			<codebox char_offset="1186" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">sudo chmod 777 file #chmod executed as root</codebox>
+			<codebox char_offset="1260" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">apt install package</codebox>
+			<codebox char_offset="1322" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">sudo adduser newuser</codebox>
+			<codebox char_offset="1377" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">sudo addgroup newpplgroup</codebox>
+			<codebox char_offset="1473" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">usermod -a -G group1, newpplgroup, group2 newuser</codebox>
+			<codebox char_offset="1534" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">ps -ef</codebox>
+			<codebox char_offset="1590" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">kill 333</codebox>
+			<codebox char_offset="1731" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">./helloWorldScript</codebox>
+			<codebox char_offset="1738" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">bash helloWorldScript.sh</codebox>
+			<codebox char_offset="1894" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">echo $PATH</codebox>
+			<encoded_png anchor="perm" char_offset="1909">anchor</encoded_png>
+			<codebox char_offset="2016" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chown user:group file</codebox>
+			<codebox char_offset="2088" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod 777 file; chmod a-rw file</codebox>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Linux Files" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613785562.03" ts_lastsave="1613959106.25" unique_id="4">
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text scale="h3">FORMAT: Owner, Group, [everyone else] → 341 = owner can exe and write to, group can read file, everyone else can execute</rich_text>
+			<rich_text>
+
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text link="node 3 perm" scale="h1">see useful commands for permissions</rich_text>
+			<rich_text>
+• setUID bit ex: </rich_text>
+			<rich_text background="#000000000000"> </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• setGID bit ex: </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• set sticky bit ex:
+    </rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text> or</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• add permission ex:
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+• remove permission ex:
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+</rich_text>
+			<table char_offset="0" col_max="300" col_min="300">
+				<row>
+					<cell>1</cell>
+					<cell>file can be executed</cell>
+				</row>
+				<row>
+					<cell>2</cell>
+					<cell>file can be written to</cell>
+				</row>
+				<row>
+					<cell>3</cell>
+					<cell>can execute and write to</cell>
+				</row>
+				<row>
+					<cell>4</cell>
+					<cell>can read file</cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell>can read and execute</cell>
+				</row>
+				<row>
+					<cell>6</cell>
+					<cell>can write and read file</cell>
+				</row>
+				<row>
+					<cell>7</cell>
+					<cell>can read, write and execute file</cell>
+				</row>
+				<row>
+					<cell>Digit</cell>
+					<cell>Meaning</cell>
+				</row>
+			</table>
+			<table char_offset="124" col_max="300" col_min="300">
+				<row>
+					<cell>r</cell>
+					<cell>read</cell>
+				</row>
+				<row>
+					<cell>w</cell>
+					<cell>write</cell>
+				</row>
+				<row>
+					<cell>x</cell>
+					<cell>execute</cell>
+				</row>
+				<row>
+					<cell>s</cell>
+					<cell>sets either set User ID or group, allows file to run with privileges of user or group (4 = user, 2 = group, see example below)</cell>
+				</row>
+				<row>
+					<cell>t</cell>
+					<cell>sticky bit set, only owner can delete file/dir (1 = sticky bit)</cell>
+				</row>
+				<row>
+					<cell>+</cell>
+					<cell>add permission to file</cell>
+				</row>
+				<row>
+					<cell>-</cell>
+					<cell>remove permission</cell>
+				</row>
+				<row>
+					<cell>Letter</cell>
+					<cell>Meaning</cell>
+				</row>
+			</table>
+			<codebox char_offset="180" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod 4755 file #the four in front</codebox>
+			<codebox char_offset="199" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod 2755 file #the two in front</codebox>
+			<codebox char_offset="226" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod 1777 directory #the one in front</codebox>
+			<codebox char_offset="230" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod +t directory</codebox>
+			<codebox char_offset="253" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod a+x file</codebox>
+			<codebox char_offset="279" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">chmod g-w #removes write permission from group</codebox>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Networking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613961219.07" ts_lastsave="1614029401.63" unique_id="6">
+			<rich_text link="node 5">• OSI Model</rich_text>
+			<rich_text>
+• TCP/IP
+• Tools
+
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text> </rich_text>
+			<rich_text background="#ffff00000000" scale="h1">Resolving DNS query </rich_text>
+			<rich_text link="node 11 dig" scale="h1">(see tool dig)</rich_text>
+			<rich_text>
+1. Enter URL into browser
+2. Machine checks local cache if IP is already known, if not in cache then next step
+3. Router sends DNS query to recursive server (these are known to router) to resolve URL name
+4. Recursive servers store IP of popular sites, if still not found next step
+5. Pass request down to root name server (13 total worldwide)
+6. Root name server passes down request to appropiate Top-Level Domain servers (via extensions like .com or .org)
+7. TLD passes request to appropiate Authoritative name server where DNS records are stored directly
+8. When found, Authoritative name server returns requested info</rich_text>
+			<encoded_png anchor="dns" char_offset="30">anchor</encoded_png>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="OSI" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613959297.82" ts_lastsave="1613962482.31" unique_id="5">
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+
+</rich_text>
+				<rich_text background="#00000000ffff" scale="h1">Encapsulation</rich_text>
+				<rich_text scale="h1"> - data being sent traverses the 7 layers starting from Application to Physical. Each layer adds its appropiate header to the data. Example: layer 3 adds the IP header.</rich_text>
+				<rich_text>
+
+</rich_text>
+				<rich_text background="#00000000ffff" scale="h1">De-encapsulation</rich_text>
+				<rich_text scale="h1"> - when data is received each header is removed starting from physical to application, the reverse process of above</rich_text>
+				<table char_offset="0" col_max="300" col_min="300">
+					<row>
+						<cell>7 Application</cell>
+						<cell>applications users directly interact with</cell>
+					</row>
+					<row>
+						<cell>6 Presentation</cell>
+						<cell>handles data from app later, standardizes data and encrytion/compression if applicable</cell>
+					</row>
+					<row>
+						<cell>5 Session</cell>
+						<cell>responsible for establishing and maintaining session to receiver of data from presentation layer</cell>
+					</row>
+					<row>
+						<cell>4 Transportation</cell>
+						<cell>protocol to transmit data is choosen (two most common: TCP, UDP)</cell>
+					</row>
+					<row>
+						<cell>3 Network</cell>
+						<cell>Logical address (IP) used to determine route of transmission</cell>
+					</row>
+					<row>
+						<cell>2 Data Link</cell>
+						<cell>Focuses on Physical address (MAC) to deliver data to proper recipient</cell>
+					</row>
+					<row>
+						<cell>1 Physical</cell>
+						<cell>Hardware of the computer</cell>
+					</row>
+					<row>
+						<cell>Layer</cell>
+						<cell>Description</cell>
+					</row>
+				</table>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="TCP/IP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1613962534.78" ts_lastsave="1613964597.99" unique_id="7">
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+TCP/IP layers perform one or more of the actions of the corresponding OSI layers
+
+</rich_text>
+				<rich_text background="#00000000ffff" scale="h3">Transmission Control Protocol</rich_text>
+				<rich_text scale="h3">, control flow of data between two endpoints</rich_text>
+				<rich_text>
+</rich_text>
+				<rich_text background="#00000000ffff" scale="h3">Internet Protocol</rich_text>
+				<rich_text scale="h3">, how packets are addressed sent</rich_text>
+				<rich_text>
+    TCP/IP suite
+
+TCP is conncection based. Threeway handshake is conducted to establish connection
+• SYN (sender)
+• SYN/ACK (receiver acknowledges)
+• ACK (handshake complete, session established)</rich_text>
+				<table char_offset="0" col_max="300" col_min="300">
+					<row>
+						<cell>Application</cell>
+						<cell>Application, Presentation, Session</cell>
+					</row>
+					<row>
+						<cell>Transport</cell>
+						<cell>Transport</cell>
+					</row>
+					<row>
+						<cell>Internet</cell>
+						<cell>Network</cell>
+					</row>
+					<row>
+						<cell>Network Interface</cell>
+						<cell>Data Link, Physical</cell>
+					</row>
+					<row>
+						<cell>TCP/IP</cell>
+						<cell>OSI</cell>
+					</row>
+				</table>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Networking Tools" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1614022574.09" ts_lastsave="1614029643.87" unique_id="8">
+				<rich_text>• Wireshark
+• Ping
+• misc
+   ◇ Traceroute
+   ◇ whois
+   ◇ dig</rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Wireshark" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1614022605.38" ts_lastsave="1614022605.38" unique_id="9">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Ping" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1614023044.54" ts_lastsave="1614023044.54" unique_id="10">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Misc. tools" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1614025164.67" ts_lastsave="1614029620.04" unique_id="11">
+					<rich_text>• </rich_text>
+					<rich_text background="#00000000ffff">traceroute</rich_text>
+					<rich_text> - view path between user and destination (operates over UDP for Linux)  ex:
+   ◇ Linux: </rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+   ◇ windows: </rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+
+• </rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text> </rich_text>
+					<rich_text background="#00000000ffff">whois</rich_text>
+					<rich_text> - allows to pull registration information on domain name ex:
+   ◇ </rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text> 
+
+• </rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text> </rich_text>
+					<rich_text background="#00000000ffff">dig</rich_text>
+					<rich_text> - manually query recursive DNS servers for information on a domain (</rich_text>
+					<rich_text link="node 6 dns">see resolving DNS query</rich_text>
+					<rich_text>)
+   ◇ TTL is measured in seconds
+   ◇ default return record is A record
+   ◇ </rich_text>
+					<rich_text justification="left"></rich_text>
+					<codebox char_offset="101" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">traceroute google.com</codebox>
+					<codebox char_offset="117" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">tracert google.com</codebox>
+					<encoded_png anchor="whois" char_offset="122">anchor</encoded_png>
+					<codebox char_offset="196" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">whois google.com</codebox>
+					<encoded_png anchor="dig" char_offset="202">anchor</encoded_png>
+					<codebox char_offset="377" frame_height="20" frame_width="500" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">dig google.com</codebox>
+				</node>
+			</node>
+		</node>
+	</node>
+</cherrytree>
