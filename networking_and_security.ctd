@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Networking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1626817408.97" ts_lastsave="1626817464.98" unique_id="2">
+		<rich_text>• DHCP
+• email
+   ◇ pop3
+   ◇ smtp
+   ◇ imap
+• DNS
+• http/s
+• tcp/udp
+• tcp/ip stack
+• ip (ipv4, ipv6)
+• icmp
+• SMB
+• arp
+• ip address and routing
+• 802.1x
+• vlan
+• Encryption
+• PKI
+• hashing
+• firewall
+• ssl/tls
+• vpn</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="True" name="HTTP/HTTPS" prog_lang="custom-colors" readonly="False" tags="http, https" ts_creation="1626805239.77" ts_lastsave="1626820177.92" unique_id="1">
+			<rich_text>• HyperText Transfer Protocol
+• OSI Layer: 7
+• sent over TCP or TLS encrypted TCP
+• stateless, not sessionless (cookies)
+• Default Ports:
+   ◇ HTTP: 80
+   ◇ HTTPS: 443
+       
+• Headers (important)
+   ◇ Request
+      ▪ Cookie: format is name=value; name=value; etc
+      ▪ Referer: denotes where request came from ie clinking link on google (Referer: </rich_text>
+			<rich_text link="webs https://google.com)">https://google.com)</rich_text>
+			<rich_text>
+      ▪ Authorization: token unique to client, many types of authentication exist (ie Basic)
+   ◇ Response
+      ▪ Server: info on http server, important for enumeration
+      ▪ WWW-Authenticate: notifies client what type of authentication is required
+
+• HTTP methods
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+• status codes
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+References
+</rich_text>
+			<rich_text link="webs https://datatracker.ietf.org/doc/html/rfc2616">https://datatracker.ietf.org/doc/html/rfc2616</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text link="webs https://owasp.org/www-project-secure-headers/">https://owasp.org/www-project-secure-headers/</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text link="webs https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</rich_text>
+			<rich_text>
+</rich_text>
+			<table char_offset="639" col_max="500" col_min="500">
+				<row>
+					<cell>GET</cell>
+					<cell>most common, fetch a resource</cell>
+				</row>
+				<row>
+					<cell>POST</cell>
+					<cell>creates/adds resource to server</cell>
+				</row>
+				<row>
+					<cell>HEAD</cell>
+					<cell>identical to GET but response does not include body</cell>
+				</row>
+				<row>
+					<cell>PUT</cell>
+					<cell>update exisiting resource on server</cell>
+				</row>
+				<row>
+					<cell>DELETE</cell>
+					<cell>delete specified resource</cell>
+				</row>
+				<row>
+					<cell>OPTIONS</cell>
+					<cell>describe comms options for target resource</cell>
+				</row>
+				<row>
+					<cell>Method</cell>
+					<cell>Description</cell>
+				</row>
+			</table>
+			<table char_offset="657" col_max="500" col_min="500">
+				<row>
+					<cell>1xx</cell>
+					<cell>informational responses</cell>
+				</row>
+				<row>
+					<cell>2xx</cell>
+					<cell>successful responses</cell>
+				</row>
+				<row>
+					<cell>3xx</cell>
+					<cell>redirects</cell>
+				</row>
+				<row>
+					<cell>4xx</cell>
+					<cell>client errors</cell>
+				</row>
+				<row>
+					<cell>5xx</cell>
+					<cell>server errors</cell>
+				</row>
+				<row>
+					<cell>Type</cell>
+					<cell>Description</cell>
+				</row>
+			</table>
+		</node>
+	</node>
+</cherrytree>
